@@ -1,0 +1,2 @@
+# Sortify
+Sortify - Visualize sorting 
