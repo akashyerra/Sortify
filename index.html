@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sortify - Visualize Sorting </title>
+    <link rel = "stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id = "container">
+            <h1> Sortify </h1>
+            <h3>Visualize Sorting</h3>
+            <ul>
+                <li><button class="button" id="newArray">Generate New Array</button></li>
+                <li><span class="inputSpan"> Speed <input id ="speed_input" type="range" min="10" max ="300" step ="10" value="150"> </span></li>
+                <li><span class="inputSpan">Size <input id="size_input" type="range" min="10" max = "100" step= "10" value = "50"></span></li>
+                <li><button id = "bubbleSort" class="button">Bubble Sort</button></li>
+                <li><button id = "mergeSort" class="button">Merge Sort</button></li>
+                <li><button id = "quickSort" class="button">Quick Sort</button></li>
+            </ul>
+
+            <div id="bars" class="bar"></div>
+
+        </div>
+
+        <script src="sorting.js"></script>
+        <script src="bubbleSort.js"></script>
+        <script src="mergeSort.js"></script>
+        <script src="quickSort.js"></script>
+    </body>
+
+</html>
